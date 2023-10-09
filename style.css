@@ -110,7 +110,7 @@
     
 }
 
-/* .two {
+.two {
     position: absolute;
     border: 1px solid #313030;
     width: 64px;
@@ -124,7 +124,7 @@
     border-radius: 50px;
     padding-left: 20px;
     cursor: pointer;
-} */
+}
 
 .three {
     position: absolute;
