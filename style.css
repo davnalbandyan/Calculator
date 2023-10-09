@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: relative;
+    background-color: black;
+    width: 360px;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 22px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+
+
+.buttons {
+
+    padding-top: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.answer {
+    color: white;
+    position: absolute;
+    width: 100%;
+    font-size: 44px;
+    background-color: black;
+    text-align: right;
+}
+
+.btns {
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    width: 359px;
+    height: 539px;
+
+}
+
+/* .calc{
+    position: relative;
+} */
+
+.zero {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 136px;
+    height: 61px;
+    top: 79%;
+    left: 8%;
+    border-radius: 27px;
+    background-color: #313030;
+    color: white;
+    font-size: 34px;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.point {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 79%;
+    left: 48%;
+    background-color: #313030;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+.equals {
+    position: absolute;
+    border: 1px solid #f69807;
+    width: 64px;
+    height: 61px;
+    top: 84%;
+    left: 73%;
+    background-color: #f69807;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.one {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 64%;
+    left: 8%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.two {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 64%;
+    left: 28%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.three {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 64%;
+    left: 48%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.plus {
+    position: absolute;
+    border: 1px solid #f69807;
+    width: 64px;
+    height: 61px;
+    top: 64%;
+    left: 73%;
+    background-color: #f69807;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.four {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 51%;
+    left: 8%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.five {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 51%;
+    left: 28%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.six {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 51%;
+    left: 48%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.minus {
+    position: absolute;
+    border: 1px solid #f69807;
+    width: 64px;
+    height: 61px;
+    top: 51%;
+    left: 73%;
+    background-color: #f69807;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.seven {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 38%;
+    left: 8%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.eight {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 38%;
+    left: 28%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.nine {
+    position: absolute;
+    border: 1px solid #313030;
+    width: 64px;
+    height: 61px;
+    top: 38%;
+    left: 48%;
+    background-color: #313030;
+    color: white;
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.multiply {
+    position: absolute;
+    border: 1px solid #f69807;
+    width: 64px;
+    height: 61px;
+    top: 38%;
+    left: 73%;
+    background-color: #f69807;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ac {
+    position: absolute;
+    border: 1px solid #9e9f9e;
+    width: 64px;
+    height: 61px;
+    top: 25%;
+    left: 8%;
+    background-color: #9e9f9e;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.plusminus {
+    position: absolute;
+    border: 1px solid #9e9f9e;
+    width: 64px;
+    height: 61px;
+    top: 25%;
+    left: 28%;
+    background-color: #9e9f9e;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.percent {
+    position: absolute;
+    border: 1px solid #9e9f9e;
+    width: 64px;
+    height: 61px;
+    top: 25%;
+    left: 48%;
+    background-color: #9e9f9e;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 34px;
+    border-radius: 50px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.divide {
+    position: absolute;
+    border: 1px solid #f69807;
+    width: 64px;
+    height: 61px;
+    top: 25%;
+    left: 73%;
+    background-color: #f69807;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
