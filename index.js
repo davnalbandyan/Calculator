@@ -3,7 +3,7 @@ const answer = document.querySelector(".answer");
 const btns = document.querySelectorAll(".btns button");
 const clear = document.querySelector(".clear");
 
-// const calc = document.querySelectorAll(".btns .calc button");
+const calc = document.querySelectorAll(".btns .calc button");
 
 
 
